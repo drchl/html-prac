@@ -1,0 +1,88 @@
+.bg{
+	position: absolute;
+	width: 1370px;
+	height: 660px;
+	top:-5px;
+	left:-5px;
+	background: #E8E4C9;
+	mix-blend-mode: normal;
+} 
+.dot1{       /*brown top*/
+	position: absolute;
+	left: -5%;
+	right: 80%;
+	top: -5%;
+	bottom: 64%;
+	border-radius: 50%;
+	background: #E3D1A1;
+}
+
+/* Ellipse 1 */
+
+.dot2{    /*peach top*/
+	position: absolute;
+	left: -5%;
+	right: 80%;
+	top: -5%;
+	bottom: 66.6%;
+	border-radius: 120%;
+	background: #FFF9DB;
+	
+}
+
+.dot3{
+	position: absolute;
+	left: 998px;
+	top: 400px;
+	width: 360px;
+	height:255px;
+	border-radius: 50%;
+	background: #E3D1A1;
+}
+
+.dot4{
+	position: absolute;
+	left: 75%;
+	right: 0%;
+	top: 60%;
+	bottom:0%;
+ 	border-radius: 120%;
+	background: #FFF9DB;
+}
+.title1{
+
+	position: absolute;
+	left: 27%;
+	right: 30.83%;
+	top: 33.4%;
+	bottom: 33.4%;
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 150px;
+	line-height: 170.43px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	
+	color: #000000;
+	
+}
+
+.title2{
+	position: absolute;
+	left: 29%;
+	right: 35%;
+	top: 50%;
+	bottom: 36.72%;
+	
+	font-family: 'Georgia';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 120px;
+	line-height: 200px;
+	text-align: center;
+	
+	color: #000000;
+	
+
+}

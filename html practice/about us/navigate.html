@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> NU Navigate </title>
+
+<link rel = "stylesheet" type = "text/css" href = "#.css">
+<link rel = "stylesheet" href = "https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+<link href="https://fonts.cdnfonts.com/css/clan-pro" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	
+	<div class = "dropdown">
+	<nav>
+
+		
+		<div class = "container">
+			<header>
+			
+			</header>
+		</div>
+			
+			<div class = "navigation_tab">
+			<img src = "pictures/navigation_bar_3.png">
+			
+			<div class = "top-right" "sticky">
+			
+				
+			<ul>
+				<li><a href = "Homepage.html">HOME</a></li>
+				<li><a href = "navigate.html">NAVIGATION</a></li>
+				<li><a href = "about us.html">ABOUT US</a></li>
+				
+			</ul>
+			</div>
+			
+				<script>
+								// When the user scrolls the page, execute myFunction
+				window.onscroll = function() {myFunction()};
+
+				// Get the navbar
+				var navbar = document.getElementById("navbar");
+
+				// Get the offset position of the navbar
+				var sticky = navbar.offsetTop;
+
+				// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+				function myFunction() {
+				  if (window.pageYOffset >= sticky) {
+					navbar.classList.add("sticky")
+				  } else {
+					navbar.classList.remove("sticky");
+				  }
+				}
+				</script>
+			</div>
+	</div>
+	</nav>
+
+
+
+</body>
+
+</html>
